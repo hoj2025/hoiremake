@@ -1,0 +1,143 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "1918 year",
+		"techCost": 10,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "지원 화기 I",
+				"row": 1,
+				"quote": "자동화기는 더 간편해지고 있습니다. 기관단총은 이미 주효하며 휴대용 지원 화기 개발은 계속되어야 합니다.",
+			},
+			{
+				"name": "기초 보병장비",
+				"row": 2,
+				"quote": "대전쟁 이전과 그동안 개발된 기초 보병 장비.",
+			},
+      {
+        "name": "지원장비",
+				"row": 13,
+				"quote": "부대 지원에 사용되는 라디오, 지프, 부교 및 기타 장비.",
+      }
+		]
+	},
+  {
+    "columnNumber": 1,
+		"era": "1922 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 2,
+		"era": "1933 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 3,
+		"era": "1934 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 4,
+		"era": "1936 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 4,
+		"era": "1937 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 5,
+		"era": "1938 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 6,
+		"era": "1939 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 7,
+		"era": "1940 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 8,
+		"era": "1941 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 9,
+		"era": "1942 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 10,
+		"era": "1943 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 11,
+		"era": "1944 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  },
+  {
+    "columnNumber": 12,
+		"era": "1945 year",
+		"techCost": 15,
+		"buildingCost": 60,
+		"wonderCost": 225,
+    "techs": [
+    ]
+  }
+]
