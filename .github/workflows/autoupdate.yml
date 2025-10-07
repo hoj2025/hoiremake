@@ -10,11 +10,18 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  permissions:
+  contents: Read and write
+
 jobs:
   unciv-lint:
-    runs-on: ubuntu-latest
+     runs-on: ubuntu-latest
     steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: oxipng image compression # This needs to be before the Unciv run since that packs images
         run: | 
