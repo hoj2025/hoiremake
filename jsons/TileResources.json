@@ -5,7 +5,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -14,7 +13,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -23,7 +21,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -32,7 +29,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -41,7 +37,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -50,7 +45,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	}
