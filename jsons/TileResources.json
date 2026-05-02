@@ -1,0 +1,31 @@
+[
+	// Bonus resources
+	{
+		"name": "Rubber",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Tungsten",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Chromium",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+
+]
