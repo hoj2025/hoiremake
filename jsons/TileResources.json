@@ -1,0 +1,57 @@
+[
+	// Bonus resources
+	{
+		"name": "Steel",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Aluminium",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Tungsten",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Rubber",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Oil",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	},
+  {
+		"name": "Chromium",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [""]
+	}
+]
