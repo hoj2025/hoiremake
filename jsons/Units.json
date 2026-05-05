@@ -22,6 +22,7 @@
 		"unitType": "Infantry",
 		"replaces": "Rifleman",
         "uniqueTo": "Germany",
+		"requiredTech": "기초 보병장비",
 		"movement": 2,
 		"strength": 21,
         "range": 2,
