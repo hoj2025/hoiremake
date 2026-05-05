@@ -19,7 +19,6 @@
 	},
 	{
 		"name": "Gewehr 98",
-		"_comment" : "1918년 독일 보병" 
 		"unitType": "Infantry",
 		"replaces": "Rifleman",
         "uniqueTo": "Germany",
