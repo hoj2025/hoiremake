@@ -1,5 +1,19 @@
 [
     {
+        "name": "1914 year",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, 
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Rifleman",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
         "name": "1918 year",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, 
