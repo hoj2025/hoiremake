@@ -62,7 +62,7 @@
         "leaderName": "Adolf Hitler",
         "adjective": ["German"],
         "startBias": ["Avoid [Coast]"],
-        "preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Domination",
         "startIntroPart1": "새로운 독일이 일어섰습니다. 바이마르 공화국이 해체되고 히틀러의 독일국이 등장한 지 3년이 지났습니다. 대공황의 어려운 시기를 지나 경제가 다시 안정되었고, 대규모 실업 문제도 해결되었습니다.베르사유 조약이 독일에 부과한 군사 제한은 오래전에 잊혀졌으며, 국방군은 날로 강해지고 있습니다. 또 다른 세계 대전이 다가오고 있습니다.",
         "startIntroPart2": "Great Prince Bismarck, the German people look up too you to lead them to greater days of glory. Their determination is strong, and now they turn to you, their beloved iron chancellor, to guide them once more. Will you rile and conquer through blood and iron, or foster the Germanic arts and industry? Can you build a civilization that will stand the test of time?",
         "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
