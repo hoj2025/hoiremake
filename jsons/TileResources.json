@@ -6,6 +6,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvementStats": {"production": 1},
+		"improvedBy": ["Camp", "Tipi"],
 		"uniques": [""]
 	},
   {
@@ -14,6 +15,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvementStats": {"production": 1},
+        "improvedBy": ["Mine"],
 		"uniques": [""]
 	},
   {
@@ -21,6 +23,8 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
+        "improvedBy": ["Mine"],
+
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -29,6 +33,8 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
+        "improvedBy": ["Mine"],
+
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -45,6 +51,8 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
+        "improvedBy": ["Mine"],
+
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	}
