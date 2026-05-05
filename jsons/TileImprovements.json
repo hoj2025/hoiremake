@@ -33,11 +33,22 @@
     },
     {
         "name": "CivilFactory",
-        "terrainsCanBeBuiltOn": ["Grassland","Desert"],
+        "terrainsCanBeBuiltOn": ["Grassland","Desert","Tundra","Mountain","Hill"],
         "turnsToBuild": 3,
         "uniques": [
-            "Can only be built to improve a resource <in [resource] tiles>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+50 Gold]",
+            "[+2 Gold, +2 Production]"
+        ],
+        "shortcutKey": "C"
+    },
+    {
+        "name": "MilitaryFactory",
+        "terrainsCanBeBuiltOn": ["Grassland","Desert","Tundra","Mountain","Hill"],
+        "turnsToBuild": 3,
+        "uniques": [
+            "Pillaging this improvement yields approximately [+30 Gold]",
+            "[+5 Production]",
+            "Costs [2] [Gold] per turn"
         ],
         "shortcutKey": "M"
     },
