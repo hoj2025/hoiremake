@@ -26,7 +26,7 @@
 		"strength": 21,
         "range": 2,
 		"rangedStrength": 5,
-		"cost": 30,
+		"cost": 12,
 		"requiredResource": "Steel",
 		"attackSound": "shot"
 	}
