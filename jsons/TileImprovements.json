@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Farm",
+        "terrainsCanBeBuiltOn": ["Grassland","Desert"],
+        "food": 1,
+        "turnsToBuild": 3,
+        "uniques": [
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "Can only be built to improve a resource <in [resource] tiles>",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
+        "name": "Oil well",
+        "turnsToBuild": 3,
+        "uniques": [
+            "Can only be built to improve a resource",
+            "Cannot be built on [Water] tiles",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+        "shortcutKey": "W"
+    },
+    {
+        "name": "Mine",
+        "terrainsCanBeBuiltOn": ["Hill"],
+        "turnsToBuild": 3,
+        "uniques": [
+            "Can only be built to improve a resource <in [resource] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+        "shortcutKey": "M"
+    },
+]
