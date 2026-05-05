@@ -31,4 +31,14 @@
         ],
         "shortcutKey": "M"
     },
+    {
+        "name": "CivilFactory",
+        "terrainsCanBeBuiltOn": ["Grassland","Desert"],
+        "turnsToBuild": 3,
+        "uniques": [
+            "Can only be built to improve a resource <in [resource] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+        "shortcutKey": "M"
+    },
 ]
