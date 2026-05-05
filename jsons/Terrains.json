@@ -23,4 +23,170 @@
         "RGB": [97,171,58],
         "uniques": []
     },
+    {
+        "name": "Tundra",
+        "type": "Land",
+        "food": 1,
+        "movementCost": 1,
+        "RGB": [189,204,191],
+        "uniques": [
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0.8] and [1]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0.6] and [1]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0.4] and [1]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.2] and [0.8]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.6]",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [10]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+            "Considered [Undesirable] when determining start locations <in all except [Tundra] Regions>",
+            "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+            "Becomes [Plains] when adjacent to [River]",
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+        ]
+    },
+    {
+        "name": "Desert",
+        "type": "Land",
+        "movementCost": 1,
+        "RGB": [ 230, 230, 113],
+        "uniques": [
+            "Occurs at temperature between [-0.1] and [0.1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.4] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [0.3]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
+            "[0] to Fertility for Map Generation",
+            "A Region is formed with at least [15]% [Desert] tiles, with priority [4]",
+            "Becomes [Flood plains] when adjacent to [River]",
+            "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+            "Considered [Desirable] when determining start locations <in [Desert] Regions>",
+            "Every [11] tiles with this terrain will receive a major deposit of a strategic resource."
+        ]
+    },
+    {
+        "name": "Lakes",
+        "type": "Water",
+        "food": 3,
+        "RGB": [ 123, 202, 226],
+        "uniques": [
+            "Fresh water",
+            "Considered [Food] when determining start locations"
+        ]
+    },
+    {
+        "name": "Mountain",
+        "type": "Land",
+        "defenceBonus": 0.25,
+        "RGB": [120, 120, 120],
+        "uniques": [
+            "Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "[-1] to Fertility for Map Generation",
+            "Considered [Undesirable] when determining start locations"
+        ]
+    },
+        {
+        "name": "Hill",
+        "type": "TerrainFeature",
+        "production": 2,
+        "movementCost": 2,
+        "overrideStats": true,
+        "defenceBonus": 0.25,
+        "RGB": [105,125,72],
+        "occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+        "uniques": [
+            "Rough terrain",
+            "[+5] Strength for cities built on this terrain",
+            "Has an elevation of [1] for visibility calculations",
+            "Occurs in groups around high elevations",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [37]% [Hill] tiles, with priority [6]",
+            "Base Terrain on this tile is not counted for Region determination",
+            "Starts in regions of this type receive an extra [Sheep]",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Production] when determining start locations",
+            "Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
+        ]
+    },
+    {
+        "name": "Forest",
+        "type": "TerrainFeature",
+        "production": 1,
+        "food": 1,
+        "movementCost": 2,
+        "overrideStats": true,
+        "unbuildable": true,
+        "defenceBonus": 0.25,
+        "occursOn": ["Tundra","Plains","Grassland","Hill"],
+        "uniques": [
+            "Rough terrain", "Vegetation",
+            "Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+            "Blocks line-of-sight from tiles at same elevation",
+            "[25]% Chance to be destroyed by nukes",
+            "A Region is formed with at least [19]% [Forest] tiles, with priority [3]",
+            "A Region is formed with at least [30]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+            "A Region can not contain more [Jungle] tiles than [Forest] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Production] when determining start locations",
+            "Considered [Food] when determining start locations <in all except [Tundra] Regions>",
+            "Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
+        ],
+        "civilopediaText": [
+            {
+                "text": "A Camp can be built here without cutting it down",
+                "link": "Improvement/Camp"
+            }
+        ]
+    },
+    {
+        "name": "Jungle",
+        "type": "TerrainFeature",
+        "food": 2,
+        "movementCost": 2,
+        "overrideStats": true,
+        "unbuildable": true,
+        "defenceBonus": 0.25,
+        "occursOn": ["Plains","Grassland"],
+        "uniques": [
+            "Rough terrain",
+            "Vegetation",
+            "Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+            "Blocks line-of-sight from tiles at same elevation",
+            "[25]% Chance to be destroyed by nukes",
+            "[-1] to Fertility for Map Generation",
+            "A Region is formed with at least [12]% [Jungle] tiles, with priority [2]",
+            "A Region is formed with at least [24]% [Jungle] tiles and [Forest] tiles, with priority [2]",
+            "A Region can not contain more [Forest] tiles than [Jungle] tiles",
+            "Considered [Food] when determining start locations <in all except [Grassland] Regions>",
+            "Considered [Desirable] when determining start locations <in [Jungle] Regions>",
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+        ]
+    },
+    {
+        "name": "Marsh",
+        "type": "TerrainFeature",
+        "food": -1,
+        "movementCost": 3,
+        "unbuildable": true,
+        "defenceBonus": -0.15,
+        "occursOn": ["Grassland"],
+        "uniques": [
+            "Rare feature",
+            "A Region is formed with at least [11]% [Marsh] tiles, with priority [5]",
+            "Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+            "[-2] to Fertility for Map Generation",
+            "Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Considered [Undesirable] when determining start locations <in all except [Marsh] Regions>",
+            "Considered [Desirable] when determining start locations <in [Marsh] Regions>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Only Polders can be built here",
+                "link": "Improvement/Polder"
+            }
+        ]
+    },
 ]
