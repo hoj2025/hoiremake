@@ -44,6 +44,20 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Carcano M91",
+		"unitType": "Infantry",
+		"replaces": "Rifleman",
+        "uniqueTo": "Italy",
+		"requiredTech": "기초 보병장비",
+		"movement": 2,
+		"strength": 12,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 6,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Infantry1",
 		"_comment" : "1936년 보병" 
 		"unitType": "Infantry",
@@ -61,6 +75,20 @@
 		"unitType": "Infantry",
 		"replaces": "Infantry1",
         "uniqueTo": "Germany",
+		"requiredTech": "화기 I",
+		"movement": 2,
+		"strength": 19,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 7,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carcano M38",
+		"unitType": "Infantry",
+		"replaces": "Infantry1",
+        "uniqueTo": "Italy",
 		"requiredTech": "화기 I",
 		"movement": 2,
 		"strength": 19,
