@@ -41,7 +41,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
-	 	"improvedBy": ["Oil Well"],
+	 	"improvedBy": ["Oil well"],
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
