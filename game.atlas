@@ -34,9 +34,9 @@ UnitIcons/Settler
   index: -1
 
 game2.png
-size: 1024,128
+size: 1024, 128
 format: RGBA8888
-filter: Nearest,Nearest
+filter: NMipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ResourceIcons/Aluminum
   rotate: false
