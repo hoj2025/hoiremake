@@ -98,4 +98,40 @@
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
+	{
+        "name": "Italy",
+        "leaderName": "Benito Mussolini",
+        "adjective": ["Italian"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "파시즘의 부상과 함께 이탈리아는 새로운 영광의 시대에 접어들었습니다. 이탈리아군은 현재 에티오피아를 점점 확장되는 이탈리아 식민제국에 편입하는 과정에 있지만, 무솔리니의 야망은 거기서 멈추지 않습니다. 지중해를 지배하는 것은 언제나 이탈리아의 운명이였으며, 유럽에서는 새로운 질서가 형성되고 있습니다. 변화의 거대한 물결이 몰려올 때, 이탈리아는 그 물결의 정점에 자리 잡아야 합니다. 그렇지 않으면 휩쓸려 사라지고 말 것입니다.",
+        "startIntroPart2": "Tireless monarch, the frontlines of Italy once more lay bare and unprotected. Can you rally both soldier and ship to the defense of her borders, ensuring that Italy remains unassailable? Will your nation bring a new Rinascimento to bring new prosperity for her people? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "Although unwanted, war is a constant of this world, and it is regrettable that it must fall on us both.",
+        "attacked": "Italy is far from a stranger of war! I will show you that we are far from pushovers!",
+        "defeated": "It is sad that my forces were not enough to defend this nation... Addio, amico mio.",
+        "introduction": "Saluti, you walk upon the land of the former Roman Empire. I am Victor Emmanuel II, King Of Italy. Do you rule with benevolence, or absolute tyranny?",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Our cultures have much to share, and this deal proves it.",
+        "outerColor": [87, 165, 82],
+        "innerColor": [67, 127, 63],
+        "uniqueName": "Il duce",
+        "uniques": [
+            "[2] Happiness from each type of luxury resource",
+            "Cities are razed [2] times as fast",
+            "[+5]% Production when constructing [CivilFactory] buildings [in all cities]",
+            "[+15]% Science cost of researching new Technologies",
+            "[-10]% Strength for cities",
+            "[-5]% Strength",
+            "[+10]% to Flank Attack bonuses"
+        ],
+        "cities": [
+            "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
+            "Brescia","Messina","Bologna","Pisa","Verona","Taranto","Trieste","Rimini","Modena","Pescara",
+            "Vicenza","Ancona","Perugia","Lecce","Reggio","Parma"
+        ],
+        "spyNames": [
+            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
+        ]
+    },
 ]
