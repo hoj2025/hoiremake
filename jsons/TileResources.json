@@ -6,7 +6,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvementStats": {"production": 1},
-		"improvedBy": ["Camp", "Tipi"],
+		"improvedBy": ["Mine"],
 		"uniques": [""]
 	},
   {
