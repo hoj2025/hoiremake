@@ -47,7 +47,7 @@
 		"name": "Infantry1",
 		"_comment" : "1936년 보병" 
 		"unitType": "Infantry",
-		"requiredTech": "보병 장비 I",
+		"requiredTech": "화기 I",
 		"movement": 2,
 		"strength": 19,
         "range": 2,
@@ -61,7 +61,7 @@
 		"unitType": "Infantry",
 		"replaces": "Infantry1",
         "uniqueTo": "Germany",
-		"requiredTech": "보병 장비 I",
+		"requiredTech": "화기 I",
 		"movement": 2,
 		"strength": 19,
         "range": 2,
