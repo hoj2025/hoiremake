@@ -24,7 +24,6 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
         "improvedBy": ["Mine"],
-
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -34,7 +33,6 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
         "improvedBy": ["Mine"],
-
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
@@ -43,6 +41,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
+	 	"improvedBy": ["Oil Well"],
 		"improvementStats": {"production": 1},
 		"uniques": [""]
 	},
