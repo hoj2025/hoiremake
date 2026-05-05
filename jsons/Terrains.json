@@ -68,7 +68,7 @@
         "overrideStats": true,
         "defenceBonus": 0.25,
         "RGB": [105,125,72],
-        "occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+        "occursOn": ["Tundra","Grassland","Desert","Snow"],
         "uniques": [
             "Rough terrain",
             "[+5] Strength for cities built on this terrain",
@@ -84,7 +84,7 @@
         "overrideStats": true,
         "unbuildable": true,
         "defenceBonus": 0.25,
-        "occursOn": ["Tundra","Plains","Grassland","Hill"],
+        "occursOn": ["Tundra","Grassland","Hill"],
         "uniques": [
             "Rough terrain", "Vegetation",
             "[25]% Chance to be destroyed by nukes",
@@ -98,7 +98,7 @@
         "overrideStats": true,
         "unbuildable": true,
         "defenceBonus": 0.25,
-        "occursOn": ["Plains","Grassland"],
+        "occursOn": ["Grassland"],
         "uniques": [
             "Rough terrain",
             "Vegetation",
