@@ -98,4 +98,45 @@
 		"requiredResource": "Steel",
 		"attackSound": "shot"
 	},
+	{
+		"name": "Infantry2",
+		"_comment" : "1939년 보병" 
+		"unitType": "Infantry",
+		"requiredTech": "화기 II",
+		"movement": 2,
+		"strength": 27,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 8,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
+	{
+		"name": "MP 38",
+		"unitType": "Infantry",
+		"replaces": "Infantry2",
+        "uniqueTo": "Germany",
+		"requiredTech": "화기 II",
+		"movement": 2,
+		"strength": 27,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 8,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
+	{
+		"name": "MAB-38",
+		"unitType": "Infantry",
+		"replaces": "Infantry2",
+        "uniqueTo": "Italy",
+		"requiredTech": "화기 II",
+		"movement": 2,
+		"strength": 27,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 8,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
 ]
