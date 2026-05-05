@@ -13,7 +13,7 @@
 		"strength": 21,
         "range": 2,
 		"rangedStrength": 5,
-		"cost": 30,
+		"cost": 6,
 		"requiredResource": "Steel",
 		"attackSound": "shot"
 	},
@@ -27,8 +27,34 @@
 		"strength": 21,
         "range": 2,
 		"rangedStrength": 5,
-		"cost": 12,
+		"cost": 6,
 		"requiredResource": "Steel",
 		"attackSound": "shot"
-	}
+	},
+	{
+		"name": "Infantry1",
+		"_comment" : "1936년 보병" 
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 32,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 7,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Kar98k",
+		"unitType": "Infantry",
+		"replaces": "Infantry1",
+        "uniqueTo": "Germany",
+		"requiredTech": "기초 보병장비",
+		"movement": 2,
+		"strength": 32,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 7,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
 ]
