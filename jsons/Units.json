@@ -14,7 +14,7 @@
             "Can build [Land] improvements on tiles",
             "Automation is a primary action"
         ],
-        "cost": 48
+        "cost": 6
     },
     {
 		"name": "Rifleman",
