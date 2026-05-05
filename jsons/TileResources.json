@@ -1,8 +1,8 @@
 [
-	// Bonus resources
+	// Strategic resources
 	{
 		"name": "Steel",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvementStats": {"production": 1},
@@ -11,7 +11,7 @@
 	},
   {
 		"name": "Aluminium",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 		"improvementStats": {"production": 1},
@@ -20,7 +20,7 @@
 	},
   {
 		"name": "Tungsten",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
         "improvedBy": ["Mine"],
@@ -29,7 +29,7 @@
 	},
   {
 		"name": "Rubber",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
         "improvedBy": ["Mine"],
@@ -38,7 +38,7 @@
 	},
   {
 		"name": "Oil",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
 	 	"improvedBy": ["Oil well"],
@@ -47,7 +47,7 @@
 	},
   {
 		"name": "Chromium",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"production": 1,
         "improvedBy": ["Mine"],
