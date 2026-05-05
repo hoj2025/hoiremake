@@ -7,12 +7,28 @@
     },
     {
 		"name": "Rifleman",
+		"_comment" : "1918년 보병" 
 		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 5,
+		"strength": 21,
         "range": 2,
-		"rangedStrength": 7,
-		"cost": 40,
+		"rangedStrength": 5,
+		"cost": 30,
+		"requiredResource": "Steel",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Gewehr 98",
+		"_comment" : "1918년 독일 보병" 
+		"unitType": "Infantry",
+		"replaces": "Rifleman",
+        "uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 21,
+        "range": 2,
+		"rangedStrength": 5,
+		"cost": 30,
+		"requiredResource": "Steel",
 		"attackSound": "shot"
 	}
 ]
